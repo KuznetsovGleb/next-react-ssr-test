@@ -1,0 +1,23 @@
+@import "../../styles/palette";
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 12px;
+
+  @media (max-width: 840px) {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 12px;
+  }
+}
+.inputWrapper {
+  width: 70%;
+  @media (max-width: 840px) {
+    width: 100%;
+    margin: 0 0 12px;
+  }
+}
+.input {
+  width: 100%;
+}

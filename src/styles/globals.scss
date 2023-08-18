@@ -1,0 +1,18 @@
+@import "./palette";
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: $paletteColor3;
+    font-family: roboto mono, roboto, system-ui, sans-serif;
+    font-smoothing: antialiased;
+    font-variant-ligatures: none;
+
+    & section {
+        width: 100%;
+    }
+}
